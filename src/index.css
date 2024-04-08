@@ -29,3 +29,8 @@ a:hover {
   text-decoration: none;
   color: unset;
 }
+
+html,
+main {
+  height: 100%;
+}

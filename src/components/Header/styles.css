@@ -1,16 +1,21 @@
 .msp-header {
   background-color: var(--msp-bg-color-primary);
+}
+.msp-header-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 80px;
-  padding: 130px auto;
   font-family: "Nunito";
+  margin: 0 auto;
+  max-width: 1180px;
 }
 
 .msp-logo-container {
   color: var(--msp-logo-color-primary);
   display: flex;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 .dot {
@@ -31,4 +36,20 @@
 
 .msp-header-menu-container li:nth-last-child(1) {
   margin-right: 0px;
+}
+
+.msp-social-media-container {
+  display: flex;
+  align-items: center;
+}
+
+.msp-social-media-container a img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.msp-social-media-container a:nth-child(2) img{
+  width: 25px;
+  height: 25px;
 }

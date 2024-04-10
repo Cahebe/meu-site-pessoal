@@ -2,6 +2,7 @@ import "./styles.css";
 import Header from "../Header";
 import MeImg from "../../assets/me/Sem título1 (1).png";
 import CardProfile from "../CardProfile";
+import { skills } from "../../models/skill";
 
 export default function MainPage() {
   return (
@@ -18,7 +19,7 @@ export default function MainPage() {
             consectetur, adipisci velit...
           </h1>
         </section>
-        <CardProfile />
+        <CardProfile skill={skills}/>
       </main>
     </>
   );

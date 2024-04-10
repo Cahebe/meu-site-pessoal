@@ -1,0 +1,35 @@
+.icon-container {
+  background-color: var(--msp-bg-color-quinary);
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-container img {
+  width: 30px;
+  height: 30px;
+}
+
+.skill-description-container {
+  background-color: var(--msp-bg-color-tertiary);
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skill-name {
+  font-size: 30px;
+  text-align: center;
+}
+
+.skill-description {
+  font-size: 14px;
+  text-align: center;
+}

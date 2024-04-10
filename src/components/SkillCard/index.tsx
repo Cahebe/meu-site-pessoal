@@ -1,15 +1,22 @@
 import "./styles.css";
+import { SkillDTO } from "../../models/skill";
 
-export default function SkillCard() {
+type Props = {
+  skill: SkillDTO;
+};
+
+export default function SkillCard({ skill }: Props) {
   return (
     <>
-        <section id="skill-card-" className="msp-skill-card-container">
-          <div className="skills-container">
-            <div>
-              
-            </div>
-          </div>
-        </section>
+      <div className="skill-card-container">
+        <div className="icon-container">
+          <img src={skill.icon} alt={skill.name} />
+        </div>
+        <div className="skill-description-container">
+          <h2 className="skill-name">{skill.name}</h2>
+          <h4 className="skill-description">{skill.description}</h4>
+        </div>
+      </div>
     </>
   );
 }

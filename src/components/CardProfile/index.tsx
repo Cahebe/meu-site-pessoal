@@ -1,7 +1,16 @@
+
+import { SkillDTO } from "../../models/skill";
 import SkillCard from "../SkillCard";
 import "./styles.css";
 
-export default function CardProfile() {
+type Props = {
+  skill: SkillDTO[]
+}
+
+
+
+export default function CardProfile({ skill }: Props) {
+  
   return (
     <>
       <section id="main-card" className="msp-card-container">
@@ -10,7 +19,9 @@ export default function CardProfile() {
             <h2>Skills</h2>
           </div>
           <div>
-            <SkillCard />
+          {skill.map(skill => (
+            <SkillCard key={skill.name} skill={skill} />
+          ))}
           </div>
         </div>
       </section>

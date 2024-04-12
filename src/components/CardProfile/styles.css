@@ -5,6 +5,24 @@
     align-items: center;
     justify-content: center;
     border-radius: 12px;
-    padding: 75px 24px;
     color: var(--msp-font-color-primary);
+    padding: 75px 200px;
+    margin: 0 auto;
+}
+
+.msp-skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.msp-skills-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.msp-tiltle-skills-container {
+    margin-bottom: 75px;
 }

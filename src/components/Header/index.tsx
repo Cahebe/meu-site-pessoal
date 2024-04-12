@@ -32,7 +32,7 @@ export default function Header() {
           <a href="#">
             <img src={LinkedinIcon} alt="" />
           </a>
-          <a href="#">
+          <a href="http://instagram.com/cahebee" target="_blank">
             <img src={InstagramIcon} alt="" />
           </a>
           <a href="#">

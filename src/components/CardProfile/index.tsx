@@ -14,11 +14,11 @@ export default function CardProfile({ skill }: Props) {
   return (
     <>
       <section id="main-card" className="msp-card-container">
-        <div className="skills-container">
+        <div className="msp-skills-container">
           <div>
-            <h2>Skills</h2>
+            <h2 className="msp-tiltle-skills-container">Skills</h2>
           </div>
-          <div>
+          <div className="msp-skills-card-container">
           {skill.map(skill => (
             <SkillCard key={skill.name} skill={skill} />
           ))}

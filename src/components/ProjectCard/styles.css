@@ -1,0 +1,8 @@
+.msp-project-card-container {
+    background-color: var(--msp-bg-color-primary);
+}
+
+.msp-project-card-container img {
+    width: 400px;
+    height: 350px;
+}

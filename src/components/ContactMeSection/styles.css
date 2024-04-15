@@ -1,0 +1,55 @@
+.msp-contact-me-section-container {
+  margin-top: 150px;
+  color: var(--msp-font-color-primary);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.msp-contact-me-section-container h1 {
+  margin-bottom: 25px;
+}
+
+.msp-input-name-email-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.msp-input-name-email-container input {
+  width: 580px;
+  height: 32px;
+  background-color: var(--msp-bg-color-secondary);
+  padding: 5px;
+  color: var(--msp-font-color-primary);
+}
+
+.msp-description-input input[type="text"] {
+  width: 1180px;
+  height: 200px;
+  padding: 5px;
+  background-color: var(--msp-bg-color-secondary);
+  color: var(--msp-font-color-primary);
+}
+
+input[type="text"] {
+  outline: none;
+  box-shadow: none;
+  border: 0 none;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0 none;
+}
+
+button {
+    
+    background-color: var(--msp-bg-color-quaternary);
+    width: 230px;
+    height: 55px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+

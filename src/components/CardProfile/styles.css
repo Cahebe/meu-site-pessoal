@@ -4,10 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     border-radius: 12px;
     color: var(--msp-font-color-primary);
     padding: 75px 200px;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .msp-skills-container {

@@ -1,5 +1,5 @@
 import "./styles.css";
-import FormInput from "../FormInput";
+import FormInput from "../ContactInput";
 
 export default function ContactMeSection() {
   return (
@@ -12,7 +12,7 @@ export default function ContactMeSection() {
             <FormInput />
           </div>
           <div className="msp-description-input description">
-            <FormInput />
+            <textarea placeholder="Mensagem"/>
           </div>
         </div>
         <button>ENVIAR</button>

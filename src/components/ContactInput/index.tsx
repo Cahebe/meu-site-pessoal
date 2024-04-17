@@ -1,6 +1,6 @@
 import "./styles.css";
 
-export default function FormInput() {
+export default function ContactInput() {
     return (
         <input type="text" placeholder="Texto"/>
     )

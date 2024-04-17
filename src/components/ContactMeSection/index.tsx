@@ -1,5 +1,5 @@
 import "./styles.css";
-import FormInput from "../ContactInput";
+import ContactInput from "../ContactInput";
 
 export default function ContactMeSection() {
   return (
@@ -8,8 +8,8 @@ export default function ContactMeSection() {
         <h1 className="msp-tiltle-contact-container">Contate-me</h1>
         <div className="msp-form-container">
           <div className="msp-input-name-email-container">
-            <FormInput />
-            <FormInput />
+            <ContactInput />
+            <ContactInput />
           </div>
           <div className="msp-description-input description">
             <textarea placeholder="Mensagem"/>

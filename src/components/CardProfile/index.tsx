@@ -1,6 +1,6 @@
 import { SkillDTO } from "../../models/skill";
 import AboutMeCard from "../AboutMeCard";
-import CaroulselProjects from "../CaroulselProjects";
+import CarouselProjects from "../CarouselProjects";
 import SkillCard from "../SkillCard";
 import "./styles.css";
 
@@ -11,7 +11,7 @@ type Props = {
 export default function CardProfile({ skill }: Props) {
   return (
     <>
-      <section id="main-card" className="msp-card-container">
+      <section id="skills" className="msp-card-container">
         <div className="msp-skills-container">
           <div>
             <h2 className="msp-tiltle-skills-container">Skills</h2>
@@ -22,7 +22,7 @@ export default function CardProfile({ skill }: Props) {
             ))}
           </div>
         </div>
-        <CaroulselProjects />
+        <CarouselProjects />
         <AboutMeCard />
       </section>
     </>

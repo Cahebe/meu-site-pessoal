@@ -10,7 +10,7 @@ export default function MainPage() {
     <>
       <Header />
       
-      <main className="msp-main-container">
+      <main id="home" className="msp-main-container">
       <div className="elipse-blur"></div>
         <section
           id="main-container-section"

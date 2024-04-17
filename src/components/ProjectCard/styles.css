@@ -1,8 +1,27 @@
 .msp-project-card-container {
     background-color: var(--msp-bg-color-primary);
+    margin-right: 10px;
+}
+
+.msp-project-card-container img:hover {
+    transform:scale(1.1);
+    box-shadow: 0 0 0px var(--msp-bg-color-tertiary);
 }
 
 .msp-project-card-container img {
     width: 400px;
     height: 350px;
+}
+
+.msp-project-card-container:hover {
+    cursor: hand; 
+  }
+
+.slider-container {
+    max-width: 1000px;
+}
+
+.center {
+    width: 700px;
+    height: 650px;
 }
